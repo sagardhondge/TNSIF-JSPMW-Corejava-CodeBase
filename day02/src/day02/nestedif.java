@@ -11,13 +11,14 @@ public class nestedif {
 			else {
 				System.out.println("c is greater");
 			}
-	}else {
+		}
+		else {
 		if(c>b) {
 			System.out.println("c is greater");
-	}
+			}
 		else {
 			System.out.println("b is greater");
+			}
 		}
-		}
-}
+	}
 }

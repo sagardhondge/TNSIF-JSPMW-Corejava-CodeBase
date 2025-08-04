@@ -6,7 +6,7 @@ public class login {
 		String username="sagardhondge";
 		String passward="Sagar@123";
 		
-		if(username=="agardhondge") {
+		if(username=="sagardhondge") {
 			if(passward=="Sagar@123") {
 				System.out.println("Login is Successfully");
 			}

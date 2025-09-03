@@ -1,34 +1,32 @@
 package day05;
 
 public class Customer {
-	
-	// private  member;
-	private String Customername;
+
+	//data members 
+	protected String customername;
 	private int customerId;
 	private String customerCity;
 	
-	
-	
-	//default constructor
+	//Default Constructor 
 	public Customer() {
-		super();
+		System.out.println("Default COnstructor");
 	}
-	//parameterized constructor
-	
+
+	//parametriozed constructor 
 	public Customer(String customername, int customerId, String customerCity) {
 		super();
-		Customername = customername;
+		this.customername = customername;//shubham
 		this.customerId = customerId;
 		this.customerCity = customerCity;
 	}
-
-
+	
+	//getter and setter 
 	public String getCustomername() {
-		return Customername;
+		return customername;
 	}
 
 	public void setCustomername(String customername) {
-		Customername = customername;
+		this.customername = customername;
 	}
 
 	public int getCustomerId() {
@@ -46,8 +44,12 @@ public class Customer {
 	public void setCustomerCity(String customerCity) {
 		this.customerCity = customerCity;
 	}
-	
-	
-	
-	
+
+	//to string
+	@Override
+	public String toString() {
+		return "Customer [customername=" + customername + ", customerId=" + customerId + ", customerCity="
+				+ customerCity + "]";
+	}
+
 }

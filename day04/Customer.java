@@ -2,7 +2,7 @@ package day05;
 
 public class Customer {
 
-	//data members 
+
 	protected String customername;
 	private int customerId;
 	private String customerCity;

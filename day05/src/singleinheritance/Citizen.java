@@ -8,7 +8,7 @@ public class Citizen {
 	private String address;
 	private long phone;
 	
-	//non para 
+	
 	public Citizen() {
 		System.out.println("Citizen object created");
 	}

@@ -1,6 +1,6 @@
 package Transaction;
 import java.util.Scanner;
-public class CashAmount {
+public class CashAmount extends MoneyWithdrawMethods  {
     @Override
     public void processTransaction() {
         Scanner sc = new Scanner(System.in);

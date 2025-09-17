@@ -1,9 +1,7 @@
 package Transaction;
-
 import java.util.Scanner;
 
 public class UPI extends MoneyWithdrawMethods {
-
     @Override
     public void processTransaction() {
         Scanner sc = new Scanner(System.in);

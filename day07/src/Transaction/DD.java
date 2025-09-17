@@ -2,7 +2,6 @@ package Transaction;
 import java.util.Scanner;
 
 public class DD extends MoneyWithdrawMethods {
-
     @Override
     public void processTransaction() {
         Scanner sc = new Scanner(System.in);

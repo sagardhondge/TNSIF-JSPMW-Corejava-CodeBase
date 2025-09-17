@@ -1,7 +1,5 @@
 package Transaction;
 
-public class MoneyWithdrawMethods {
-	public void processTrasactions() {
-		System.out.println("Processing Transaction");
-	}
+public abstract class MoneyWithdrawMethods {
+    public abstract void processTransaction();
 }

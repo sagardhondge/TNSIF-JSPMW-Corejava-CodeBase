@@ -2,22 +2,22 @@ package Transaction;
 import java.util.Scanner;
 
 public class Transactions {
-	public static void main(String[] args) {
-		Scanner sc =new Scanner(System.in);
-		
-		System.out.println(" Choose Transaction Mode");
-		System.out.println("1) Net Banking");
-		System.out.println("2) Upi");
-		System.out.println("3) Demand Dranft");
-		System.out.println("4) Cheque");
-		System.out.println("5) Cash");
-		
-		System.out.println("Enter your choise (1-5)");
-		int choise =sc.nextInt();
-		sc.nextLine();
-		
-		MoneyWithdrawaMethods transaction =null;
-		
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Choose Transaction Mode");
+        System.out.println("1) Net Banking");
+        System.out.println("2) UPI");
+        System.out.println("3) Demand Draft");
+        System.out.println("4) Cheque");
+        System.out.println("5) Cash");
+
+        System.out.print("Enter your choice (1-5): ");
+        int choice = sc.nextInt();
+        sc.nextLine(); // consume leftover newline
+
+        MoneyWithdrawMethods transaction = null;
+
         if (choice == 1) {
             transaction = new NetBanking();
         } else if (choice == 2) {
@@ -33,10 +33,8 @@ public class Transactions {
             sc.close();
             return;
         }
-        transaction.processTransaction();
 
+        transaction.processTransaction();
         sc.close();
-		
-	}
-	
+    }
 }

@@ -4,22 +4,20 @@ public class Rectangular extends Shape {
     float width;
     float height;
 
-    // default constructor
+    // Default constructor
     public Rectangular() {
-        this.width = 3.2f;
-        this.height = 4.5f;
+        this.width = 3.2f;   // use this. for clarity
+        this.height = 3.2f;
     }
 
-    // parameterized constructor
+    // Parameterized constructor
     public Rectangular(float width, float height) {
-        super();
         this.width = width;
         this.height = height;
     }
 
     @Override
-    public String calarea() {
-        this.area = width * height;  // correct formula for rectangle area
-        return "Area of Rectangle = " + this.area;
+    public void calarea() {
+        this.area = width * height;
     }
 }

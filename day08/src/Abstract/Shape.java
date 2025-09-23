@@ -1,4 +1,4 @@
-package day08;
+package Abstract;
 
 public abstract class Shape {
 	protected float area;

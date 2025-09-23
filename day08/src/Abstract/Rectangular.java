@@ -1,4 +1,4 @@
-package day08;
+package Abstract;
 
 public class Rectangular extends Shape {
     float width;

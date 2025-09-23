@@ -1,4 +1,4 @@
-package day08;
+package Abstract;
 
 public class ShapeDemo {
 public static void main(String[] args) {

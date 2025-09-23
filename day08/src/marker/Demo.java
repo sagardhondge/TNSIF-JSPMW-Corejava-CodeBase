@@ -13,3 +13,4 @@ public class Demo implements ExtendedInterface{
 		// TODO Auto-generated method stub
 		System.out.println("shcvhsvc");
 	}
+}

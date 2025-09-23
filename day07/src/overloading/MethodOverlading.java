@@ -1,4 +1,4 @@
-package Constructor;
+package overloading;
 
 public class MethodOverlading {
 	

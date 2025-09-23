@@ -1,5 +1,5 @@
 //use of overloading
-package Constructor;
+package overloading;
 
 public class point {
     private float x;

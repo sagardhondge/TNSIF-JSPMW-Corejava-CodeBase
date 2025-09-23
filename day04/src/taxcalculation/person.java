@@ -1,4 +1,4 @@
-package day04;
+package taxcalculation;
 
 public class person {
 //	data

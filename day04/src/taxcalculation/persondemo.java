@@ -1,4 +1,4 @@
-package day04;
+package taxcalculation;
 
 import java.util.Scanner;
 

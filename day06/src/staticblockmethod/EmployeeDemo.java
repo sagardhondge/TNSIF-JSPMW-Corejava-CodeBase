@@ -1,4 +1,4 @@
-package day06;
+package staticblockmethod;
 
 public class EmployeeDemo {
 
